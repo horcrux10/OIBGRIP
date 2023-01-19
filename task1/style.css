@@ -1,0 +1,159 @@
+body {
+    background-color: #8c54e4;
+  }
+.sneaker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .sneaker-grid img {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  nav ul li {
+    font-size: 1.2em;
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: rgb(255, 246, 253);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  .intro {
+    font-family: serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: rgb(5, 240, 252);
+  }
+  #new-arrivals {
+    background-color: #d0bdf4;
+    padding: 20px;
+  }
+  
+  #new-arrivals h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+  }
+  
+  #new-arrivals p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #bestsellers {
+    background-color: #8458B3;
+    padding: 20px;
+  }
+  
+  #bestsellers h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+  }
+  
+  #bestsellers p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  
+  #sales {
+    background-color: #86329b;
+    padding: 20px;
+  }
+  
+  #sales h2 {
+    font-size: 30px;
+    color: #333;
+    margin: 0;
+  }
+  
+  #sales p {
+    font-size: 14px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    font-size: 24px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  
+  p {
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin: 0;
+    padding: 0;
+  }
+  
+  #new-arrivals p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    text-align: center;
+  }
+  
+  #bestsellers p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  #sales p {
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    font-style: bold;
+    text-align: center;
+  }
+ 
+  
